@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-DATA_PATH = "synthetic_student_data.csv"
+DATA_PATH = "student_data.csv"
 MODEL_PATH = "student_risk_model.pkl"
 
 FEATURES = [
