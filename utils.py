@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 
-DATA_PATH = "data/synthetic_student_data.csv"
-MODEL_PATH = "models/student_risk_model.pkl"
+DATA_PATH = "synthetic_student_data.csv"
+MODEL_PATH = "student_risk_model.pkl"
 
 FEATURES = [
     "Attendance_Rate",
