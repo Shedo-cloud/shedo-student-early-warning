@@ -7,37 +7,37 @@ st.set_page_config(
 )
 
 dashboard = st.Page(
-    "01_Dashboard.py",
+    "data/01_Dashboard.py",
     title="Dashboard",
     icon="📊"
 )
 
 students = st.Page(
-    "02_Student_Profiles.py",
+    "data/02_Student_Profiles.py",
     title="Student Profiles",
     icon="👨‍🎓"
 )
 
 at_risk = st.Page(
-    "03_At_Risk_Students.py",
+    "data/03_At_Risk_Students.py",
     title="At-Risk Students",
     icon="⚠️"
 )
 
 interventions = st.Page(
-    "04_Interventions.py",
+    "data/04_Interventions.py",
     title="Interventions",
     icon="🛠️"
 )
 
 parent_reports = st.Page(
-    "05_Parent_Reports.py",
+    "data/05_Parent_Reports.py",
     title="Parent Reports",
     icon="📝"
 )
 
 downloads = st.Page(
-    "06_Reports_Downloads.py",
+    "data/06_Reports_Downloads.py",
     title="Reports & Downloads",
     icon="📥"
 )
